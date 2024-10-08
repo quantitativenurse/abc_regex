@@ -5,7 +5,7 @@ Since we're using real notes with punctuation, we used special delimiters that a
 
 This is the format we used for each row in our tab separated input file:
 ```
-person_identifier&nbsp;&nbsp;      !^!&nbsp;&nbsp;     note_identifier&nbsp;&nbsp;    !^!&nbsp;&nbsp;     note_text
+person_identifier      !^!     note_identifier    !^!     note_text
 ```
 
 ## Running Scripts  
