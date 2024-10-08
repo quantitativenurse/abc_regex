@@ -11,7 +11,6 @@ person_identifier      !^!     note_identifier    !^!     note_text
 ## Running Scripts  
 Runscript/arguments for extract function to find all matches for each pattern:
 ```
-singularity exec /path/to/container/singularity_container.sif \
     python abc_regex.py \
         --extract y \
         --in_file /path/to/input_file.txt \
@@ -21,7 +20,6 @@ singularity exec /path/to/container/singularity_container.sif \
 
 Runscript/arguments for aggregate and score function to generate a score for an individual patient across all notes:
 ```
-singularity exec /path/to/container/singularity_container.sif \
     python abc_regex.py \
         --aggregate_score y \
         --results_path /path/to/results/
