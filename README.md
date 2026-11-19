@@ -1,5 +1,8 @@
 # Automation of the Addiction Behaviors Checklist with regular expressions  
 
+## Update: now a Python package (sudregex)
+After the published work, this code was developed into a Python package, **sudregex**: https://github.com/quantitativenurse/sud-regex (`pip install sudregex`). The scripts here are unchanged from the published work, and sudregex's output won't match them exactly. Use this repo to reproduce the published results, and sudregex for new work.
+
 ## Data Pre-Processing  
 Since we're using real notes with punctuation, we used special delimiters that are unlikely to be found as a false delimiter in the text to be processed.
 
